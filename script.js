@@ -30,7 +30,7 @@ function removeUserFromLocalStorage() {
 
 existingButton.addEventListener('click',(e)=>{
 	e.preventDefault();
-	alert('Logged in as .')
+	alert('Logged in as username')
 })
 
 submitButton.addEventListener('click',(e)=>{
@@ -46,5 +46,5 @@ submitButton.addEventListener('click',(e)=>{
 		// show existing button
 		checkIfUserExistsInLocalStorage()
 	}
-	alert('Logged in as .')
+	alert('Logged in as username')
 })
